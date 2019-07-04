@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run --rm -it -v pocky:/opt yocto:latest $@
+docker run --rm -it yocto:latest $@
 
